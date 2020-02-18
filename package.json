@@ -23,6 +23,7 @@
   "scripts": {
     "start": "SET NODE_ENV=dev && node server.js",
     "test": "nyc  mocha --timeout 10000",
-	"testResult": "nyc   mocha test --reporter mocha-junit-reporter"
+	"testCodeCoverage": "nyc --timeout 10000 --repoter=cobertura mocha",
+    "testResult": "nyc   mocha test --reporter mocha-junit-reporter"
   }
 }

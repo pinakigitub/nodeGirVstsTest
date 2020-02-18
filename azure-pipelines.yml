@@ -27,7 +27,11 @@ steps:
 
 - script: |
     npm run testResult
-  displayName: 'npm install and test'
+  displayName: 'npm run testResult'
+  
+- script: |
+    npm run testCodeCoverage
+  displayName: 'npm run testCodeCoverage'
 
 - task: PublishTestResults@2
   inputs:
