@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="2.3910" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-02-18T11:36:30" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="stateAndCity" timestamp="2020-02-18T11:36:30" tests="0" file="D:\Sarada\node-test\Api\test\stateAndStateTest.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="ServerChecking" timestamp="2020-02-18T11:36:30" tests="1" file="D:\Sarada\node-test\Api\test\stateAndStateTest.js" time="0.0370" failures="0">
+    <testcase name="stateAndCity ServerChecking Server Should Run fine" time="0.0370" classname="Server Should Run fine">
+    </testcase>
+  </testsuite>
+  <testsuite name="/GET getAllStates" timestamp="2020-02-18T11:36:30" tests="1" file="D:\Sarada\node-test\Api\test\stateAndStateTest.js" time="1.7980" failures="0">
+    <testcase name="stateAndCity /GET getAllStates it should GET all the states" time="1.7980" classname="it should GET all the states">
+    </testcase>
+  </testsuite>
+  <testsuite name="/POST addNewState " timestamp="2020-02-18T11:36:32" tests="1" file="D:\Sarada\node-test\Api\test\stateAndStateTest.js" time="0.2150" failures="0">
+    <testcase name="stateAndCity /POST addNewState  it should add a new state" time="0.2150" classname="it should add a new state">
+    </testcase>
+  </testsuite>
+  <testsuite name="/GET  getSingleCity " timestamp="2020-02-18T11:36:32" tests="1" file="D:\Sarada\node-test\Api\test\stateAndStateTest.js" time="0.1720" failures="0">
+    <testcase name="stateAndCity /GET  getSingleCity  it should return  a state" time="0.1720" classname="it should return  a state">
+    </testcase>
+  </testsuite>
+  <testsuite name="/GET  removeSpecificCity " timestamp="2020-02-18T11:36:32" tests="1" file="D:\Sarada\node-test\Api\test\stateAndStateTest.js" time="0.1690" failures="0">
+    <testcase name="stateAndCity /GET  removeSpecificCity  it should add a new state" time="0.1690" classname="it should add a new state">
+    </testcase>
+  </testsuite>
+</testsuites>
